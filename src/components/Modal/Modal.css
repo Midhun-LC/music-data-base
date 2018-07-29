@@ -1,0 +1,55 @@
+.ModalContainer {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 60%;
+    height:500px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    left:20%;
+    top: 20%;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+.Modal {
+    background-color: white;
+    width: 90%;
+    height:90%;
+    border: 1px solid #ccc;
+    margin:3px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+.Titlebar{
+    font-size:20px;
+    padding:0;
+    margin: 0;
+    display:flex; 
+    color: white;
+    background-Color:Black;
+    justify-Content:space-between;
+}
+
+.Title{ 
+    padding: 0; 
+    margin: 0;
+    text-Align:left;
+}
+
+.Close{ 
+    padding: 0; 
+    margin: 0;
+    text-Align:right;
+    margin:2px;
+}
+
+@media (max-width:1024px){
+    .ModalContainer {
+    width: 90%;
+    height:70%;
+    left:5%;
+    top: 10%;
+}
+}
