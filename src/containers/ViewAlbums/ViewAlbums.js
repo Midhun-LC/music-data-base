@@ -3,7 +3,7 @@ import Modal from '../../components/Modal/Modal';
 import ViewTracks from '../ViewTracks/ViewTracks';
 import Spinner from '../../components/Spinner/Spinner';
 import classes from './ViewAlbums.css'
-import Aux from '../../HOC/Aux';
+import Aux from '../../HOC/hoc';
 import axios from '../../axios';
 
 class ViewAlbums extends Component{
